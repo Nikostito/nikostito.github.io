@@ -1,141 +1,272 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Nick Titomichelaki's Portfolio Page</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-	</head>
-	<body class="is-preload">
-		<!-- JS -->
-		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  <head>
+    <title>Nick Titomichelaki's Portfolio Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/fancybox.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  </head>
+  <body class="is-preload">
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro -->
+      <div id="intro">
+        <h1>My Portfolio</h1>
+        <p>A showcase of my projects and my abilities.</p>
+        <ul class="actions">
+          <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+        </ul>
+      </div>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>My Portfolio</h1>
-						<p>A showcase of my projects and my abilities.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+      <!-- Header -->
+      <header id="header">
+        <a href="https://github.com/Nikostito/" class="logo">GitHub</a>
+      </header>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="https://github.com/Nikostito/" class="logo">GitHub</a>
-					</header>
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active"><a href="index.html">This is my Portfolio</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a href="https://www.linkedin.com/in/nikolaos-ioannis-titomichelakis-737788192" class="icon fa-linkedin" target="_blank"
+              ><span class="label">Linkedin</span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Nikostito/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a>
+          </li>
+        </ul>
+      </nav>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is my Portfolio</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/nikolaos-ioannis-titomichelakis-737788192" class="icon fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/Nikostito/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+      <!-- Main -->
+      <div id="main">
+        <!-- Featured Post -->
+        <article class="post featured">
+          <header class="major">
+            <h2>
+              <a href="https://www.linkedin.com/in/nikolaos-ioannis-titomichelakis-737788192"
+                >My Name is <br />
+                Nick Titomichelakis</a
+              >
+            </h2>
+            <p>
+              I'm trying to finish my studies at Elecrital and Computer Engineering (NTUA) and getting my Master's degree. I'm a passionate software engineer,
+              but more importantly I'm passionate about technology.
+            </p>
+          </header>
+          <h2>
+            <a
+              >Project 1<br />
+              E-commerce Bookshop</a
+            >
+          </h2>
+          <a
+            href="images/Bookshop/bookshop-front.png"
+            class="image main"
+            data-fancybox="images"
+            data-animation-effect="tube"
+            data-width="1850"
+            data-height="938"
+            data-caption="E-commerce Bookshop -  Vue.JS frontend / NodejS Backend"
+            ><img src="images/Bookshop/bookshop-front.png" alt="Bookshop Website Front"
+          /></a>
+          <p>
+            An e-commerce website for a Book Publication in Athens. Written from scratch in Vuejs. The backend is written in Nodejs. Cron jobs have been
+            implemented for the website to be auto-updated with books as they are released via REST APIs. The database used was MongoDB. An Admin Portal was
+            also created for the orders to be modified accordingly from the admins.
+          </p>
+          <div class="flex flex-wrap gap-5 justify-center max-w-5xl mx-auto px-6">
+            <ul class="actions special">
+              <li><a href="./images/Bookshop/book1.png" data-fancybox="gallery" class="button large">Check more photos</a></li>
+              <li hidden>
+                <a data-fancybox="gallery" href="./images/Bookshop/book2.png">
+                  <img class="rounded" src="./images/Bookshop/book2.png" />
+                </a>
+                <a data-fancybox="gallery" href="./images/Bookshop/book3.png">
+                  <img class="rounded" src="./images/Bookshop/book3.png" />
+                </a>
+                <a data-fancybox="gallery" href="./images/Bookshop/book4.png">
+                  <img class="rounded" src="./images/Bookshop/book4.png" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
 
-				<!-- Main -->
-					<div id="main">
+        <article class="post featured">
+          <h2>
+            <a
+              >Project 2<br />
+              The NoobCash Manager</a
+            >
+          </h2>
+          <a
+            href="images/pic12.png"
+            class="image fit"
+            data-fancybox="images"
+            data-animation-effect="tube"
+            data-width="1850"
+            data-height="938"
+            data-caption="NoobCash UI written in Vue.JS"
+            ><img src="images/pic12.png" alt="NoobCash-Cryptocoin frontend"
+          /></a>
+          <p>
+            A cryptocurrency blockchain that uses POW technology. The backend is written in python and Nodejs and the frontend is written in Vue.JS and
+            Bootstrap. It implements various features such as automatic Wallet Creation, Mining, Sending and Receiving Transactions, Consensus and 51% attack
+            protection. Everything is stored securely and hashed.
+          </p>
+          <ul class="actions special">
+            <li><a href="https://github.com/Nikostito/NoobCash-Cryptocoin" class="button large">Check it on GitHub</a></li>
+          </ul>
+        </article>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="https://www.linkedin.com/in/nikolaos-ioannis-titomichelakis-737788192">My Name is <br/>  Nick Titomichelakis</a></h2>
-									<p>I'm trying to finish my studies at Elecrital and Computer Engineering (NTUA) and getting my Master's degree.
-										I'm a passionate software engineer, but more importantly I'm passionate about technology.</p>
-								</header>
-								<h2><a href="#">Project 1<br />
-									The NoobCash Manager</a></h2>
-								<a href="#" class="image main" data-fancybox="images" data-animation-effect="tube" data-width="1850" data-height="938" data-caption="NoobCash UI written in Vue.JS"><img src="images/pic12.png" alt="" /></a>
-								<p>A cryptocurrency blockchain that uses POW technology. The backend is written in python and Nodejs and the frontend is written in Vue.JS and Bootstrap. It implements various features such as automatic Wallet Creation, Mining, Sending and Receiving Transactions, Consensus and 51% attack protection. Everything is stored securely and hashed.</p>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Check it on GitHub</a></li>
-								</ul>
-							</article>
+        <!-- Posts -->
+        <section class="posts">
+          <article>
+            <header>
+              <h2>
+                <a
+                  >Project 3<br />
+                  Rent-A-Car Platform</a
+                >
+              </h2>
+            </header>
+            <a
+              href="images/pic10.png"
+              class="image fit"
+              data-fancybox="images"
+              data-animation-effect="tube"
+              data-width="1906"
+              data-height="972"
+              data-caption="Rent a Car User Interface running on Apache"
+              ><img src="images/pic10.png" alt=""
+            /></a>
+            <p>
+              A MySql database about running a Rent-A-Car business. Admin can add multiple stores, cars, employers and employees. It was built with Php and
+              Boostrap 5. Everything runs on an Apache Server using Xaamp.
+            </p>
+            <ul class="actions special">
+              <li><a href="https://github.com/Nikostito/RentACar-Platform" class="button">Check it on GitHub</a></li>
+            </ul>
+          </article>
+          <article>
+            <header>
+              <h2>
+                <a
+                  >Project 4<br />
+                  Cheapest Gas Station Finder
+                </a>
+              </h2>
+            </header>
+            <a
+              href="images/pic11.png"
+              class="image fit"
+              data-fancybox="images"
+              data-animation-effect="tube"
+              data-width="2558"
+              data-height="877"
+              data-caption="Gas Station Finder using Node js for the backend and Vue.JS for the frontend."
+              ><img src="images/pic11.png" alt=""
+            /></a>
+            <p>
+              A map with a login interface. Everything is encrypted. Users crowdsource gas prices so visitors can find the cheapest Gas Station in their area. A
+              fastest route from the user's location is also provided using Google Maps Api.
+            </p>
+            <ul class="actions special">
+              <li><a href="https://github.com/Nikostito/Gas-Station-Map" class="button">Check it on GitHub</a></li>
+            </ul>
+          </article>
+        </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										
-										<h2><a href="#">Project 2<br />
-										Rent-A-Car Platform</a></h2>
-									</header>
-									<a href="images/pic10.png" class="image fit" data-fancybox="images" data-animation-effect="tube" data-width="1906" data-height="972" data-caption="Rent a Car User Interface running on Apache"><img src="images/pic10.png" alt="" /></a>
-									<p>A MySql database about running a Rent-A-Car business. Admin can add multiple stores, cars, employers and employees. It was built with Php and Boostrap 5. Everything runs on an Apache Server using Xaamp.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Check it on GitHub</a></li>
-									</ul>
-								</article>	
-								<article>
-									<header>
-										
-										<h2><a href="#">Project 3<br />
-										Cheapest Gas Station Finder </a></h2>
-									</header>
-									<a href="images/pic11.png" class="image fit" data-fancybox="images" data-animation-effect="tube" data-width="2558" data-height="877" data-caption="Gas Station Finder using Node js for the backend and Vue.JS for the frontend."><img src="images/pic11.png" alt="" /></a>
-									<p>A map with a login interface. Everything is encrypted. Users crowdsource gas prices so visitors can find the cheapest Gas Station in their area. A fastest route from the user's location is also provided using Google Maps Api.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Check it on GitHub</a></li>
-									</ul>
-								</article>
-							</section>
+        <!-- Footer -->
+      </div>
 
-						<!-- Footer -->
-							
+      <!-- Footer -->
+      <footer id="footer">
+        <section class="split contact">
+          <section class="alt">
+            <h3>Location</h3>
+            <p>Athens, Greece<br /></p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p><a href="mailto:nikos.titomichelakis@gmail.com">nikos.titomichelakis@gmail.com</a></p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li>
+                <a href="https://www.instagram.com/nikostito/" class="icon alt fa-instagram"><span class="label">Instagram</span></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/nikolaos-ioannis-titomichelakis-737788192" class="icon alt fa-linkedin"
+                  ><span class="label">LinkedIn</span></a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/Nikostito/" class="icon alt fa-github"><span class="label">GitHub</span></a>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
 
-					</div>
+      <!-- Copyright -->
+      <div id="copyright">
+        <ul>
+          <li>&copy; Nick Titomichelakis</li>
+        </ul>
+      </div>
+    </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Athens, Greece<br />
-								</p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="mailto:nikos.titomichelakis@gmail.com">nikos.titomichelakis@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.instagram.com/nikostito/" class="icon alt fa-instagram"><span class="label">Instagram</span></a> </li>
-									<li><a href="https://www.linkedin.com/in/nikolaos-ioannis-titomichelakis-737788192" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Nikostito/" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        dragToClose: false,
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Nick Titomichelakis</li></ul>
-					</div>
+        Toolbar: false,
+        closeButton: "top",
 
-			</div>
+        Image: {
+          zoom: false,
+        },
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        on: {
+          initCarousel: (fancybox) => {
+            const slide = fancybox.Carousel.slides[fancybox.Carousel.page];
 
-	</body>
+            fancybox.$container.style.setProperty("--bg-image", `url("${slide.$thumb.src}")`);
+          },
+          "Carousel.change": (fancybox, carousel, to, from) => {
+            const slide = carousel.slides[to];
+
+            fancybox.$container.style.setProperty("--bg-image", `url("${slide.$thumb.src}")`);
+          },
+        },
+      });
+    </script>
+  </body>
 </html>
